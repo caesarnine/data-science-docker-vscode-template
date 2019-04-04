@@ -13,4 +13,6 @@ RUN wget https://github.com/codercom/code-server/releases/download/1.408-vsc1.32
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
+ADD ./code /code
+
 ENTRYPOINT ["docker-entrypoint.sh"]
