@@ -8,6 +8,14 @@ Blog post goes into more detail - find it here:
 
 https://binal.pub/2019/04/running-vscode-in-docker/
 
+#### Why is This Useful?
+
+1. You can develop all your code in a fully specified environment, which makes it much easier to reproduce and deploy models and analysis.
+2. You can (after enabling security) move your IDE to the data. Instead of transferring data back and forth you can develop where your data is stored.
+3. Last - and most important for me - in industries like my own (healthcare), you work with highly regulated data that has to be stored securely, where having multiple copies of data on multiple laptops can pose an unacceptably large risk. 
+
+    Running containers like this within a secure environment with access to the data helps us to have an ideal development environment, while ensuring the protected data remains in a secure, single location with no unnecessary duplication.
+
 #### How to Use This All
 
 Clone this down and rename the folder to be your project name. Modify the `environment.yml` file to include all the Python packages you need.
