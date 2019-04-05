@@ -8,6 +8,8 @@ Blog post goes into more detail - find it here:
 
 https://binal.pub/2019/04/running-vscode-in-docker/
 
+Completely based on [Coder's](https://coder.com/) incredible work. Their GitHub repo here: https://github.com/codercom/code-server
+
 #### Why is This Useful?
 
 1. You can develop all your code in a fully specified environment, which makes it much easier to reproduce and deploy models and analysis.
