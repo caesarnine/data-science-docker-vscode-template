@@ -1,10 +1,10 @@
-name: base                                                                   
-channels:                                                                    
+name: base
+channels:
   - defaults
-  - conda-forge                                                              
-dependencies:    
+  - conda-forge
+dependencies:
   - black
-  - flake8                                                        
+  - flake8
   - pandas
   - sqlalchemy
   - scikit-learn
