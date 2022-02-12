@@ -15,4 +15,4 @@ COPY docker-entrypoint.sh /usr/local/bin/
 
 ADD ./code /code
 
-ENTRYPOINT ["docker-entrypoint.sh"]
+ENTRYPOINT ["bash","docker-entrypoint.sh"]
